@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onBeforeUnmount, onMounted, ref } from 'vue'
-import { handleResize } from '../resize'
+import { handleResize } from '~/resize'
 
 const activeNav = ref(false)
 

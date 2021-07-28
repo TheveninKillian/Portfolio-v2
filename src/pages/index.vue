@@ -1,8 +1,8 @@
 <script lang="ts" setup>
 import { onBeforeUnmount, onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
-import { handleResize } from '../resize'
-import { recoverDevice } from '../device'
+import { handleResize } from '~/resize'
+import { recoverDevice } from '~/device'
 
 const { t } = useI18n()
 
