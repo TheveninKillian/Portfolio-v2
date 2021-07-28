@@ -1,0 +1,15 @@
+language: FR
+index:
+  title: Développeur Front-end
+  sub: J'aime coder de jolie choses à partir de zéro et leur donner vie
+about:
+  title: Salut je suis Killian. Ravi de vous rencontrer.
+  primary: J'apprend la programmation seul en autodidacte depuis 5 ans maintenant.
+  second: J'ai commencé par Wordpress, puis HTML et CSS, ensuite Javascript et enfin Vue JS. Sans compter les outils, les frameworks CSS et les librairies.
+  third: J'ai réalisé plusieurs petits projet en freelance et mon objectif est de pouvoir être indépendant en travaillant sur de plus gros projet.
+  fourth: Enfin je compte me lancer aussi dans le développement d’applications Android.
+skills:
+  primary: Outils
+  second: Front-end
+  third: Autres
+footer: Fabriqué à la main par moi - Design, intégration et développement.

@@ -1,0 +1,15 @@
+language: EN
+index:
+  title: Front-end developer
+  sub: I like to code pretty things from scratch and bring them to life
+about:
+  title: Hi I'm Killian. Nice to meet you.
+  primary: I have been learning programming on my own for 5 years now.
+  second: I started with Wordpress, then HTML and CSS, then Javascript and finally Vue JS. Not to mention tools, CSS frameworks and libraries.
+  third: I have done several small freelance projects and my goal is to be independent by working on larger projects.
+  fourth: Finally, I also plan to start developing Android applications.
+skills:
+  primary: Tools
+  second: Front-end
+  third: Others
+footer: Handcrafted by me - Design, integration and development.
