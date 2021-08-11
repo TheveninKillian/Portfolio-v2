@@ -42,7 +42,9 @@ const removeScroll = () => {
     :class="{ active: activeNav }"
   >
     <ul text="center">
-      <li>Portfolio</li>
+      <router-link to="/portfolio">
+        <li>Portfolio</li>
+      </router-link>
       <div h="1px" w="1/2" m="auto" bg="light-500 opacity-50"></div>
       <li>Contact</li>
     </ul>
@@ -50,7 +52,9 @@ const removeScroll = () => {
 
   <nav v-else class="nav-desktop">
     <ul display="flex">
-      <li>Portfolio</li>
+      <router-link to="/portfolio">
+        <li>Portfolio</li>
+      </router-link>
       <li>Contact</li>
     </ul>
   </nav>
