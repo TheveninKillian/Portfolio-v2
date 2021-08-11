@@ -15,3 +15,12 @@ skills:
 footer: Fabriqué à la main par moi - Design, intégration et développement.
 portfolio:
   title: Mes réalisations
+  img:
+    tictactoe: Jeu du Tic Tac Toe, joueur vs joueur
+    todo: Challenge - Application web d'une todo list
+    landing: Challenge - Création d'une landing page
+    dashboard: Challenge - Création d'un Dashboard social avec un thème sombre
+    stream: Site web pour les streameurs Twitch
+    akaruu: Extension chrome du streameur Twitch Akaruu
+    mcu: Timeline de l'Univers cinématographique Marvel
+  button: Visiter le site Web

@@ -15,3 +15,12 @@ skills:
 footer: Handcrafted by me - Design, integration and development.
 portfolio:
   title: My work
+  img:
+    tictactoe: Tic Tac Toe game, player vs player
+    todo: Challenge - Web application of a todo list
+    landing: Challenge - Creation of a landing page
+    dashboard: Challenge - Creating a Social Dashboard with a dark theme
+    stream: Website for Twitch streamers
+    akaruu: Chrome extension for the Twitch streamer Akaruu
+    mcu: Timeline of the Marvel Cinematic Universe
+  button: Visit Website
