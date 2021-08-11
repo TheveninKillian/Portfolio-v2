@@ -3,6 +3,13 @@ import { useHead } from '@vueuse/head'
 import { reactive, onBeforeUnmount, onMounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { recoverDevice } from '~/device'
+import tictactoe from '~/assets/tictactoe.jpg'
+import todo from '~/assets/todo.jpg'
+import landing from '~/assets/landing.jpg'
+import dashboard from '~/assets/Dashboard.jpg'
+import stream from '~/assets/stream.jpg'
+import akaruu from '~/assets/akaruu.jpg'
+import mcu from '~/assets/mcu.jpg'
 
 useHead({
   title: 'Killian Thevenin | Portfolio',
@@ -12,37 +19,37 @@ const { t } = useI18n()
 
 const portfolio = reactive({
   tictactoe: {
-    img: '/src/assets/tictactoe.jpg',
+    img: tictactoe,
     text: 'portfolio.img.tictactoe',
     url: 'https://codepen.io/Traffy/pen/ZEKwRMZ',
   },
   todo: {
-    img: '/src/assets/todo.jpg',
+    img: todo,
     text: 'portfolio.img.todo',
     url: 'https://challenges-killian.vercel.app/Todo/index.html',
   },
   landing: {
-    img: '/src/assets/landing.jpg',
+    img: landing,
     text: 'portfolio.img.landing',
     url: 'https://challenges-killian.vercel.app/landing-page/dist/index.html',
   },
   dashboard: {
-    img: '/src/assets/Dashboard.jpg',
+    img: dashboard,
     text: 'portfolio.img.dashboard',
     url: 'https://challenges-killian.vercel.app/Dashboard/dist/index.html',
   },
   stream: {
-    img: '/src/assets/stream.jpg',
+    img: stream,
     text: 'portfolio.img.stream',
     url: 'https://streamweb.netlify.app/',
   },
   akaruu: {
-    img: '/src/assets/akaruu.jpg',
+    img: akaruu,
     text: 'portfolio.img.akaruu',
     url: 'https://chrome.google.com/webstore/detail/akaruu/ggnddmahllpbohpjficfmlkkeapdicdg?hl=fr',
   },
   mcu: {
-    img: '/src/assets/mcu.jpg',
+    img: mcu,
     text: 'portfolio.img.mcu',
     url: 'https://mcu-fr.netlify.app/',
   },
