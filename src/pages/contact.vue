@@ -18,7 +18,12 @@ useHead({
           Merci de donner un maximum de détail sur le projet afin que je puisse évaluer correctement la charge de travail que représente votre projet. Pour obtenir un devis : préciser le dans le message s'il vous plaît.
         </p>
 
-        <form>
+        <form
+          name="form 1"
+          method="post"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+        >
           <div display="md:flex" justify="md:between">
             <input type="text" placeholder="Nom" required>
             <input type="email" placeholder="Email" required>
@@ -29,13 +34,7 @@ useHead({
       </div>
     </div>
 
-    <div
-      class="faq"
-      name="form 1"
-      method="post"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
-    >
+    <div class="faq">
       <h2 class="page-title">
         FAQ
       </h2>
