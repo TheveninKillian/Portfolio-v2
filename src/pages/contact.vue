@@ -1,3 +1,11 @@
+<script setup lang="ts">
+import { useHead } from '@vueuse/head'
+
+useHead({
+  title: 'Killian Thevenin | Contact',
+})
+</script>
+
 <template>
   <section p="lg:b-60px">
     <h2 class="page-title">
@@ -21,7 +29,49 @@
       </div>
     </div>
 
-    <div></div>
+    <div
+      class="faq"
+      name="form 1"
+      method="post"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+    >
+      <h2 class="page-title">
+        FAQ
+      </h2>
+
+      <div>
+        <ul>
+          <li>
+            <p font="bold">
+              Quels sont vos disponibilités ?
+            </p>
+            <p>Je suis actuellement disponible.</p>
+          </li>
+
+          <li>
+            <p font="bold">
+              Quels sont vos tarifs ?
+            </p>
+            <p>La tarification dépend du projet et surtout du temps qui sera nécessaire pour le mener à bien. À titre indicatif mon tarif journalier moyen se situe aux alentour de 125€/jour.  </p>
+          </li>
+
+          <li>
+            <p font="bold">
+              Effectuez-vous des missions en Agence ?
+            </p>
+            <p>J'effectue l'ensemble de mes missions à distance.</p>
+          </li>
+
+          <li>
+            <p font="bold">
+              Faites-vous la partie design des projets ?
+            </p>
+            <p>Je ne suis malheureusement pas en capacité d'effectuer le design d'une application aussi il sera nécessaire de fournir le design si la mission le nécessite.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
   </section>
 </template>
 
@@ -84,6 +134,29 @@ form{
   textarea{
     height: 120px;
     padding: 0 15px;
+  }
+}
+
+.faq{
+  ul{
+    @include breakpoint(sm){
+      margin: auto;
+      width: 650px;
+    }
+
+    @include breakpoint(lg){
+      width: 945px;
+    }
+
+    li{
+      margin-bottom: 40px;
+
+      text-align: center;
+
+      @include breakpoint(1024){
+        margin-bottom: 50px;
+      }
+    }
   }
 }
 </style>
