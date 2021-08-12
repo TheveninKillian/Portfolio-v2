@@ -25,7 +25,7 @@ const router = useRouter()
 </template>
 
 <style lang="scss">
-@import 'variables.scss';
+@import '../scss/variables';
 
 .success{
   position: absolute;
