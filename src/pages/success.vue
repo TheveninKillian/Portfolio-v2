@@ -32,8 +32,15 @@ const router = useRouter()
   top: 50%;
   left: 50%;
 
-  transform: translate(-50% -50%);
+  transform: translate(-50%, -50%);
+
+  padding: 30px 30px 30px 15px;
 
   background-color: $color-black;
 }
 </style>
+
+<route lang="yaml">
+meta:
+  layout: success
+</route>
