@@ -19,11 +19,12 @@ useHead({
         </p>
 
         <form
-          name="form 1"
-          method="post"
+          name="contact"
+          method="POST"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
+          <input type="hidden" name="form-name" value="contact" />
           <div display="md:flex" justify="md:between">
             <input type="text" placeholder="Nom" required>
             <input type="email" placeholder="Email" required>
