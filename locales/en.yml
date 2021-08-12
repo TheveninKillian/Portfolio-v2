@@ -24,3 +24,21 @@ portfolio:
     akaruu: Chrome extension for the Twitch streamer Akaruu
     mcu: Timeline of the Marvel Cinematic Universe
   button: Visit Website
+contact:
+  title: Contact me
+  details: Please provide as much detail as possible about the project so that I can properly assess the workload involved. To get a quote:\ please specify it in the message.
+  inputName: Name
+  submit: Submit
+  faq:
+    one:
+      title: What are your availabilities?
+      details: I am currently available.
+    two:
+      title: What are your prices?
+      details: The pricing depends on the project and especially on the time that will be needed to complete it. As an indication my average daily rate is around 200€/day.
+    three:
+      title: Do you do agency work?
+      details: I carry out all my missions remotely.
+    four:
+      title: Do you do the design part of the projects?
+      details: I am unfortunately not able to design an application so it will be necessary to provide the design if the mission requires it.

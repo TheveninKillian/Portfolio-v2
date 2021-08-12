@@ -24,3 +24,21 @@ portfolio:
     akaruu: Extension chrome du streameur Twitch Akaruu
     mcu: Timeline de l'Univers cinématographique Marvel
   button: Visiter le site Web
+contact:
+  title: Me contacter
+  details: Merci de donner un maximum de détail sur le projet afin que je puisse évaluer correctement la charge de travail que représente votre projet. Pour obtenir un devis :\ préciser le dans le message s'il vous plaît.
+  inputName: Nom
+  submit: Envoyer
+  faq:
+    one:
+      title: Quels sont vos disponibilités ?
+      details: Je suis actuellement disponible.
+    two:
+      title: Quels sont vos tarifs ?
+      details: La tarification dépend du projet et surtout du temps qui sera nécessaire pour le mener à bien. À titre indicatif mon tarif journalier moyen se situe aux alentour de 125€/jour.
+    three:
+      title: Effectuez-vous des missions en Agence ?
+      details: J'effectue l'ensemble de mes missions à distance.
+    four:
+      title: Faites-vous la partie design des projets ?
+      details: Je ne suis malheureusement pas en capacité d'effectuer le design d'une application aussi il sera nécessaire de fournir le design si la mission le nécessite.
