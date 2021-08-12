@@ -26,10 +26,10 @@ useHead({
         >
           <input type="hidden" name="form-name" value="contact" />
           <div display="md:flex" justify="md:between">
-            <input type="text" placeholder="Nom" required>
-            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Nom" required name="name">
+            <input type="email" placeholder="Email" required name="email">
           </div>
-          <textarea id="" name="" placeholder="Message" required></textarea>
+          <textarea name="message" placeholder="Message" required></textarea>
           <input type="submit" value="Envoyer">
         </form>
       </div>
