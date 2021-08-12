@@ -43,10 +43,16 @@ const removeScroll = () => {
   >
     <ul text="center">
       <router-link to="/portfolio">
-        <li>Portfolio</li>
+        <li @click="activeNav = !activeNav, removeScroll()">
+          Portfolio
+        </li>
       </router-link>
       <div h="1px" w="1/2" m="auto" bg="light-500 opacity-50"></div>
-      <li>Contact</li>
+      <router-link to="/contact">
+        <li @click="activeNav = !activeNav, removeScroll()">
+          Contact
+        </li>
+      </router-link>
     </ul>
   </nav>
 
@@ -55,7 +61,9 @@ const removeScroll = () => {
       <router-link to="/portfolio">
         <li>Portfolio</li>
       </router-link>
-      <li>Contact</li>
+      <router-link to="/contact">
+        <li>Contact</li>
+      </router-link>
     </ul>
   </nav>
 </template>
