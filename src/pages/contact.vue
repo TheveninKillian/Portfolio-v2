@@ -1,21 +1,24 @@
 <script setup lang="ts">
 import { useHead } from '@vueuse/head'
+import { useI18n } from 'vue-i18n'
 
 useHead({
   title: 'Killian Thevenin | Contact',
 })
+
+const { t } = useI18n()
 </script>
 
 <template>
   <section p="lg:b-60px">
     <h2 class="page-title">
-      Me contacter
+      {{ t('contact.title') }}
     </h2>
 
     <div class="form">
       <div p="t-30px x-15px" m="auto" w="md:650px xl:945px">
         <p m="b-40px">
-          Merci de donner un maximum de détail sur le projet afin que je puisse évaluer correctement la charge de travail que représente votre projet. Pour obtenir un devis : préciser le dans le message s'il vous plaît.
+          {{ t('contact.details') }}
         </p>
 
         <form
@@ -23,14 +26,15 @@ useHead({
           method="POST"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
+          action="/pages/success"
         >
           <input type="hidden" name="form-name" value="contact" />
           <div display="md:flex" justify="md:between">
-            <input type="text" placeholder="Nom" required name="name">
+            <input type="text" :placeholder="t('contact.inputName')" required name="name">
             <input type="email" placeholder="Email" required name="email">
           </div>
           <textarea name="message" placeholder="Message" required></textarea>
-          <input type="submit" value="Envoyer">
+          <input type="submit" :value="t('contact.submit')">
         </form>
       </div>
     </div>
@@ -44,30 +48,30 @@ useHead({
         <ul>
           <li>
             <p font="bold">
-              Quels sont vos disponibilités ?
+              {{ t('contact.faq.one.title') }}
             </p>
-            <p>Je suis actuellement disponible.</p>
+            <p>{{ t('contact.faq.one.details') }}</p>
           </li>
 
           <li>
             <p font="bold">
-              Quels sont vos tarifs ?
+              {{ t('contact.faq.two.title') }}
             </p>
-            <p>La tarification dépend du projet et surtout du temps qui sera nécessaire pour le mener à bien. À titre indicatif mon tarif journalier moyen se situe aux alentour de 125€/jour.  </p>
+            <p>{{ t('contact.faq.two.details') }}</p>
           </li>
 
           <li>
             <p font="bold">
-              Effectuez-vous des missions en Agence ?
+              {{ t('contact.faq.three.title') }}
             </p>
-            <p>J'effectue l'ensemble de mes missions à distance.</p>
+            <p>{{ t('contact.faq.three.details') }}</p>
           </li>
 
           <li>
             <p font="bold">
-              Faites-vous la partie design des projets ?
+              {{ t('contact.faq.four.title') }}
             </p>
-            <p>Je ne suis malheureusement pas en capacité d'effectuer le design d'une application aussi il sera nécessaire de fournir le design si la mission le nécessite.</p>
+            <p>{{ t('contact.faq.four.details') }}</p>
           </li>
         </ul>
       </div>
