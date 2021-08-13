@@ -26,7 +26,7 @@ const { t } = useI18n()
           method="POST"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
-          action="/success"
+          action="/pages/success"
         >
           <input type="hidden" name="form-name" value="contact" />
           <div display="md:flex" justify="md:between">
