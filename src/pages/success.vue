@@ -14,7 +14,7 @@ const router = useRouter()
 
       <div>
         <button
-          class="btn-special mt-8"
+          class="btn-special mt-8 w-140px"
           @click="router.back()"
         >
           Back to our site
