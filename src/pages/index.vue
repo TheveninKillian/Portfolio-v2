@@ -22,17 +22,17 @@ onBeforeUnmount(() => {
     <Overlay :opacity="50" style="z-index: 2;" />
 
     <div class="primary-container" :class="recoverDevice()" pos="relative" text="center" style="z-index: 10;">
-      <h1 text="uppercase size-28px md:size-38px xl:size-44px" m="b-2 xl:b-3">
+      <h1 text="uppercase">
         {{ t('index.title') }}
       </h1>
 
-      <p text="size-16px md:size-18px" m="b-5 xl:b-10">
+      <p m="b-5 xl:b-10">
         {{ t('index.sub') }}
       </p>
 
       <div>
         <a href="https://github.com/TheveninKillian"><carbon:logo-github /></a>
-        <a href="https://twitter.com/Killian_Thvn"><ant-design:twitter-circle-filled m="x-5" /></a>
+        <a href="https://twitter.com/Killian_Thvn"><ant-design:twitter-circle-filled m="x-8" /></a>
         <a href="mailto:thevenin.killian@gmail.com"><cib:mail-ru /></a>
       </div>
     </div>
@@ -43,13 +43,13 @@ onBeforeUnmount(() => {
 
     <div m="t-30px" text="left md:center">
       <p>{{ t('about.primary') }}</p>
-      <p m="t-2 lg:t-3">
+      <p m="t-5">
         {{ t('about.second') }}
       </p>
-      <p m="t-2 lg:t-3">
+      <p m="t-5">
         {{ t('about.third') }}
       </p>
-      <p m="t-2 lg:t-3">
+      <p m="t-5">
         {{ t('about.fourth') }}
       </p>
     </div>
@@ -201,18 +201,10 @@ onBeforeUnmount(() => {
   }
 
   .skills{
-    height: calc(929px - 50px);
-
-    @include breakpoint(sm){
-      height: calc(989px - 50px);
-    }
+    height: calc(878px - 50px);
 
     @include breakpoint(1024){
-      height: calc(384px - 50px);
-    }
-
-    @include breakpoint(lg){
-      height: calc(409px - 50px);
+      height: calc(335px - 50px);
     }
 
     &-container{
@@ -273,22 +265,36 @@ onBeforeUnmount(() => {
         font-weight: bold;
       }
 
-      ul li {
-        svg{
-          position: relative;
-          top: 3px;
+      ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
 
-          width: 16px;
-          height: 16px;
+        li {
+          width: calc(100% / 2);
 
-          @include breakpoint(sm){
-            width: 18px;
-            height: 18px;
+          text-align: left;
+
+          &:nth-child(even){
+            text-align: right;
           }
 
-          @include breakpoint(lg){
-            width: 20px;
-            height: 20px;
+          svg{
+            position: relative;
+            top: 3px;
+
+            width: 16px;
+            height: 16px;
+
+            @include breakpoint(sm){
+              width: 18px;
+              height: 18px;
+            }
+
+            @include breakpoint(lg){
+              width: 20px;
+              height: 20px;
+            }
           }
         }
       }

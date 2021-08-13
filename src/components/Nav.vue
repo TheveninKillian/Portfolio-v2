@@ -73,13 +73,8 @@ const removeScroll = () => {
 @import '../scss/mixins';
 
 .icon-nav{
-  width: 24px;
-  height: 24px;
-
-  @include breakpoint(sm){
-    width: 26px;
-    height: 26px;
-  }
+  width: 30px;
+  height: 30px;
 
   svg{
     width: 100%;
@@ -108,8 +103,6 @@ const removeScroll = () => {
     margin: 0;
     height: 70px;
     line-height: 70px;
-
-    font-size: 20px;
   }
 }
 

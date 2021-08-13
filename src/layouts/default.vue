@@ -21,7 +21,7 @@ const toggleLocales = () => {
 
     <div display="flex" justify="end" w="w-1/2" text="right">
       <div class="translation" m="r-15px lg:r-30px" cursor="pointer" @click="toggleLocales">
-        <mdi:translate />{{ t('language') }}
+        <mdi:translate pos="relative top-2px" m="r-2px" w="20px" h="20px" />{{ t('language') }}
       </div>
 
       <div>
@@ -45,22 +45,6 @@ const toggleLocales = () => {
 
 .translation{
   color: $color-secondary;
-
-  svg{
-    width: 15px;
-    height: 15px;
-    margin-right: 2px;
-
-    @include breakpoint(sm){
-      width: 17px;
-      height: 17px;
-    }
-
-    @include breakpoint(lg){
-      width: 18px;
-      height: 18px;
-    }
-  }
 }
 
 .header-border{
