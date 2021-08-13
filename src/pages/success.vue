@@ -14,7 +14,7 @@ const router = useRouter()
 
       <div>
         <button
-          class="btn-special mt-8 w-140px"
+          class="btn-special mt-8"
           @click="router.back()"
         >
           Back to our site
@@ -35,8 +35,13 @@ const router = useRouter()
   transform: translate(-50%, -50%);
 
   padding: 30px 30px 30px 15px;
+  min-width: 300px;
 
   background-color: $color-black;
+
+  .btn-special{
+    width: 140px;
+  }
 }
 </style>
 
