@@ -236,9 +236,6 @@ onBeforeUnmount(() => {
       max-width: 1200px;
 
       background-color: $color-black;
-      border-top: 1px solid rgba(255, 255, 255, 0.5);
-      border-left: 1px solid rgba(255, 255, 255, 0.5);
-      border-right: 1px solid rgba(255, 255, 255, 0.5);
 
       @include breakpoint(sm){
         width: calc(100% - 50px);
