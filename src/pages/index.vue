@@ -117,21 +117,20 @@ onBeforeUnmount(() => {
 
     height: calc(100vh - 50px);
 
-    // background-image: url("../assets/me.png");
-    // background-position: bottom;
-    // background-repeat: no-repeat;
-    // background-size: calc(100vh - 50px);
-
     overflow: hidden;
 
     z-index: 1;
 
-    // transition: background-size .3s;
-
     &.tablet{
       align-items: flex-start;
 
-      // background-size: 60vh;
+      .primary-img{
+        .bg-img{
+            top: 20vh;
+
+            background-size: 70vh;
+        }
+      }
     }
 
     &.desktop{
@@ -139,17 +138,6 @@ onBeforeUnmount(() => {
         align-items: center;
         justify-content: flex-start;
         height: calc(100vh - 75px);
-
-        // background-position: 120% 50%;
-        // background-size: calc(100vh - 100px);
-      }
-
-      @include breakpoint(xl){
-        // background-position: 105% 50%;
-      }
-
-      @include breakpoint(1600){
-        // background-position: right;
       }
     }
 
@@ -192,7 +180,17 @@ onBeforeUnmount(() => {
       height: calc(100vh - 50px);
       width: 100%;
 
+      @include breakpoint(lg){
+        position: relative;
+
+        width: 50%;
+      }
+
       .bg-img{
+        position: absolute;
+        top: 0;
+        left: 0;
+
         width: 100%;
         height: 100%;
 
