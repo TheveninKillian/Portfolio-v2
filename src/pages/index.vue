@@ -36,6 +36,10 @@ onBeforeUnmount(() => {
         <a href="mailto:thevenin.killian@gmail.com"><cib:mail-ru /></a>
       </div>
     </div>
+
+    <div class="primary-img">
+      <div class="bg-img"></div>
+    </div>
   </section>
 
   <section class="about" text="center" p="t-50px b-100px">
@@ -113,21 +117,21 @@ onBeforeUnmount(() => {
 
     height: calc(100vh - 50px);
 
-    background-image: url("../assets/me.png");
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: calc(100vh - 50px);
+    // background-image: url("../assets/me.png");
+    // background-position: bottom;
+    // background-repeat: no-repeat;
+    // background-size: calc(100vh - 50px);
 
     overflow: hidden;
 
     z-index: 1;
 
-    transition: background-size .3s;
+    // transition: background-size .3s;
 
     &.tablet{
       align-items: flex-start;
 
-      background-size: 60vh;
+      // background-size: 60vh;
     }
 
     &.desktop{
@@ -136,16 +140,16 @@ onBeforeUnmount(() => {
         justify-content: flex-start;
         height: calc(100vh - 75px);
 
-        background-position: 120% 50%;
-        background-size: calc(100vh - 100px);
+        // background-position: 120% 50%;
+        // background-size: calc(100vh - 100px);
       }
 
       @include breakpoint(xl){
-        background-position: 105% 50%;
+        // background-position: 105% 50%;
       }
 
       @include breakpoint(1600){
-        background-position: right;
+        // background-position: right;
       }
     }
 
@@ -177,6 +181,25 @@ onBeforeUnmount(() => {
         @include breakpoint(xl){
           height: 350px;
         }
+      }
+    }
+
+    &-img{
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      height: calc(100vh - 50px);
+      width: 100%;
+
+      .bg-img{
+        width: 100%;
+        height: 100%;
+
+        background-image: url("../assets/me.png");
+        background-size: calc(100vh - 50px);
+        background-repeat: no-repeat;
+        background-position: center;
       }
     }
 
