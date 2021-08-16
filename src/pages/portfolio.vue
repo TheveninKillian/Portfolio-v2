@@ -70,7 +70,13 @@ onBeforeUnmount(() => {
     </h1>
 
     <div class="grid">
-      <div v-for="(item, key) in portfolio" :key="key" class="grid-container" :class="recoverDevice()">
+      <div
+        v-for="(item, key) in portfolio"
+        :key="key"
+        class="grid-container"
+        :class="recoverDevice()"
+        tabindex="0"
+      >
         <img :src="item.img">
         <div class="grid-tips">
           <p>{{ t(item.text) }}</p>
@@ -118,7 +124,8 @@ onBeforeUnmount(() => {
         height: 250px;
       }
 
-      &:hover .grid-tips{
+      &:hover .grid-tips,
+      &:focus .grid-tips{
         opacity: 1;
       }
 

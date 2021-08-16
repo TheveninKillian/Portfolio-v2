@@ -133,6 +133,10 @@ form{
       background-color: $color-primary;
       color: $color-white;
     }
+
+    &:focus{
+      color: $color-white;
+    }
   }
 
   textarea{

@@ -20,7 +20,14 @@ const toggleLocales = () => {
     </div>
 
     <div display="flex" justify="end" w="w-1/2" text="right">
-      <div class="translation" m="r-15px lg:r-30px" cursor="pointer" @click="toggleLocales">
+      <div
+        class="translation"
+        m="r-15px lg:r-30px"
+        cursor="pointer"
+        tabindex="0"
+        @click="toggleLocales"
+        @keyup.enter="toggleLocales"
+      >
         <mdi:translate pos="relative top-2px" m="r-2px" w="20px" h="20px" />{{ t('language') }}
       </div>
 
