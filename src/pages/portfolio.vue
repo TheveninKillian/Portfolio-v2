@@ -65,9 +65,9 @@ onBeforeUnmount(() => {
 </script>
 <template>
   <section p="lg:b-60px">
-    <h2 class="page-title">
+    <h1 class="page-title">
       {{ t("portfolio.title") }}
-    </h2>
+    </h1>
 
     <div class="grid">
       <div v-for="(item, key) in portfolio" :key="key" class="grid-container" :class="recoverDevice()">

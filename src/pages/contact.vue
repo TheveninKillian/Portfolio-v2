@@ -11,9 +11,9 @@ const { t } = useI18n()
 
 <template>
   <section p="lg:b-60px">
-    <h2 class="page-title">
+    <h1 class="page-title">
       {{ t('contact.title') }}
-    </h2>
+    </h1>
 
     <div class="form">
       <div p="t-30px x-15px" m="auto" w="md:650px xl:945px">
@@ -47,28 +47,28 @@ const { t } = useI18n()
       <div>
         <ul>
           <li>
-            <p font="bold">
+            <p font="bold" text="size-20px md:size-22px 2xl:size-24px">
               {{ t('contact.faq.one.title') }}
             </p>
             <p>{{ t('contact.faq.one.details') }}</p>
           </li>
 
           <li>
-            <p font="bold">
+            <p font="bold" text="size-20px md:size-22px 2xl:size-24px">
               {{ t('contact.faq.two.title') }}
             </p>
             <p>{{ t('contact.faq.two.details') }}</p>
           </li>
 
           <li>
-            <p font="bold">
+            <p font="bold" text="size-20px md:size-22px 2xl:size-24px">
               {{ t('contact.faq.three.title') }}
             </p>
             <p>{{ t('contact.faq.three.details') }}</p>
           </li>
 
           <li>
-            <p font="bold">
+            <p font="bold" text="size-20px md:size-22px 2xl:size-24px">
               {{ t('contact.faq.four.title') }}
             </p>
             <p>{{ t('contact.faq.four.details') }}</p>
@@ -159,6 +159,10 @@ form{
 
       @include breakpoint(1024){
         margin-bottom: 50px;
+      }
+
+      &:nth-child(4){
+        margin-bottom: 0;
       }
     }
   }
