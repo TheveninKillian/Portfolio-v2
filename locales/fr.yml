@@ -3,16 +3,16 @@ index:
   title: Développeur Front-end
   sub: J'aime coder de jolie choses à partir de zéro et leur donner vie
 about:
-  title: Salut je suis Killian. Ravi de vous rencontrer.
-  primary: J'apprend la programmation seul en autodidacte depuis 5 ans maintenant.
-  second: J'ai commencé par Wordpress, puis HTML et CSS, ensuite Javascript et enfin Vue JS. Sans compter les outils, les frameworks CSS et les librairies.
-  third: J'ai réalisé plusieurs petits projet en freelance et mon objectif est de pouvoir être indépendant en travaillant sur de plus gros projet.
-  fourth: Enfin je compte me lancer aussi dans le développement d’applications Android.
+  title: Salut, Moi c'est Killian. Ravi de vous rencontrer.
+  primary: J'apprend la programmation en autodidacte depuis maintenant 5 ans.
+  second: J'ai commencé par Wordpress, HTML, CSS, Javascript et enfin Vue JS. Sans oublier les nombreux outils, frameworks CSS et librairies.
+  third: J'ai eu l'occasion de réalisé plusieurs petits projets en freelance que vous pouvez retrouver sur mon portfolio et j'ai pour objectif de devenir indépendant en travaillant sur de plus gros projet.
+  fourth: A l'avenir, j'aimerai me lancer dans le développement d'applications pour Android.
 skills:
   primary: Outils
   second: Front-end
   third: Autres
-footer: Fabriqué à la main par moi - Design, intégration et développement.
+footer: Fabriqué par mes soins - Design, intégration et développement.
 portfolio:
   title: Mes réalisations
   img:
@@ -26,7 +26,7 @@ portfolio:
   button: Visiter le site Web
 contact:
   title: Me contacter
-  details: Merci de donner un maximum de détail sur le projet afin que je puisse évaluer correctement la charge de travail que représente votre projet. Pour obtenir un devis :\ préciser le dans le message s'il vous plaît.
+  details: Merci de donner un maximum de détail sur le projet afin que je puisse évaluer correctement la charge de travail qu'il représente. Pour obtenir un devis, préciser le dans le message s'il vous plaît.
   inputName: Nom
   submit: Envoyer
   faq:

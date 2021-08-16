@@ -3,11 +3,11 @@ index:
   title: Front-end developer
   sub: I like to code pretty things from scratch and bring them to life
 about:
-  title: Hi I'm Killian. Nice to meet you.
+  title: Hi, I'm Killian. Nice to meet you.
   primary: I have been learning programming on my own for 5 years now.
-  second: I started with Wordpress, then HTML and CSS, then Javascript and finally Vue JS. Not to mention tools, CSS frameworks and libraries.
-  third: I have done several small freelance projects and my goal is to be independent by working on larger projects.
-  fourth: Finally, I also plan to start developing Android applications.
+  second: I started with Wordpress, HTML, CSS, Javascript and finally Vue JS. Without forgetting the numerous tools, CSS frameworks and libraries.
+  third: I had the opportunity to realize several small freelance projects that you can find on my portfolio and I aim to become independent by working on larger projects.
+  fourth: In the future, I would like to start developing applications for Android.
 skills:
   primary: Tools
   second: Front-end
@@ -26,7 +26,7 @@ portfolio:
   button: Visit Website
 contact:
   title: Contact me
-  details: Please provide as much detail as possible about the project so that I can properly assess the workload involved. To get a quote:\ please specify it in the message.
+  details: Please provide as much detail as possible about the project so that I can properly assess the workload it represents. To get a quote, please specify it in the message.
   inputName: Name
   submit: Submit
   faq:
