@@ -1,6 +1,13 @@
 {
   "name": "portfolio-v2",
-  "version": "0.0.0",
+  "description": "My professional portfolio",
+  "version": "1.0.0",
+  "homepage": "https://github.com/TheveninKillian/Portfolio-v2",
+  "license": "MIT",
+  "author": {
+    "name": "Killian Thevenin",
+    "email": "thevenin.killian@gmail.com"
+  },
   "scripts": {
     "dev": "vite --port 3300",
     "build": "cross-env NODE_ENV=production vite-ssg build",
