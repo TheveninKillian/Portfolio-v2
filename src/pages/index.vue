@@ -198,7 +198,7 @@ onBeforeUnmount(() => {
         width: 100%;
         height: 100%;
 
-        background-image: url("../assets/me.png");
+        background-image: url("../assets/me.webp");
         background-size: calc(100vh - 50px);
         background-repeat: no-repeat;
         background-position: center;
