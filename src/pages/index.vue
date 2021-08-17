@@ -142,7 +142,11 @@ onBeforeUnmount(() => {
     }
 
     .overlay{
-      height: calc(100vh - 75px);
+      height: calc(100vh - 50px);
+
+      @include breakpoint(lg){
+        height: calc(100vh - 75px);
+      }
     }
 
     &-container{
