@@ -7,9 +7,6 @@ export default defineComponent({
   setup(props) {
     useHead({
       title: 'Killian Thevenin',
-      meta: [
-        { name: 'description', content: 'Opinionated Vite Starter Template' },
-      ],
     })
   },
 })
