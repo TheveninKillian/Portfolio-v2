@@ -19,8 +19,6 @@ onBeforeUnmount(() => {
 
 <template>
   <section class="primary" :class="recoverDevice()">
-    <Overlay :opacity="50" style="z-index: 2;" />
-
     <div class="primary-container" :class="recoverDevice()" pos="relative" text="center" style="z-index: 10;">
       <h1 text="uppercase">
         {{ t('index.title') }}
