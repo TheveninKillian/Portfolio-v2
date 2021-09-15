@@ -11,6 +11,7 @@ declare module 'vue' {
     'Bx:bxsFileJson': typeof import('virtual:vite-icons/bx/bxs-file-json')['default']
     'Carbon:logoGithub': typeof import('virtual:vite-icons/carbon/logo-github')['default']
     'Carbon:overflowMenuHorizontal': typeof import('virtual:vite-icons/carbon/overflow-menu-horizontal')['default']
+    CarbonWarning: typeof import('virtual:vite-icons/carbon/warning')['default']
     'Ci:hamburger': typeof import('virtual:vite-icons/ci/hamburger')['default']
     'Cib:adobePhotoshop': typeof import('virtual:vite-icons/cib/adobe-photoshop')['default']
     'Cib:mailRu': typeof import('virtual:vite-icons/cib/mail-ru')['default']
