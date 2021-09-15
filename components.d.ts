@@ -17,6 +17,7 @@ declare module 'vue' {
     'Cib:netlify': typeof import('virtual:vite-icons/cib/netlify')['default']
     'Cib:vueJs': typeof import('virtual:vite-icons/cib/vue-js')['default']
     'Cib:wordpress': typeof import('virtual:vite-icons/cib/wordpress')['default']
+    'Codicon:terminalCmd': typeof import('virtual:vite-icons/codicon/terminal-cmd')['default']
     'FaSolid:laptopCode': typeof import('virtual:vite-icons/fa-solid/laptop-code')['default']
     'FileIcons:typescript': typeof import('virtual:vite-icons/file-icons/typescript')['default']
     'FileIcons:vite': typeof import('virtual:vite-icons/file-icons/vite')['default']
