@@ -64,13 +64,9 @@ onBeforeUnmount(() => {
         <h3>{{ t('skills.primary') }}</h3>
 
         <ul>
-          <li><ant-design:api-outlined /> API</li>
           <li><akar-icons:figma-fill /> Figma</li>
-          <li><teenyicons:firebase-outline /> Firebase</li>
-          <li><bx:bxl-git /> Git / Github</li>
-          <li><ri:npmjs-line /> NPM</li>
           <li><cib:adobe-photoshop /> Photoshop</li>
-          <li><file-icons:vite /> Vite JS</li>
+          <li><codicon:terminal-cmd /> CMD</li>
         </ul>
       </div>
 
@@ -85,6 +81,7 @@ onBeforeUnmount(() => {
           <li><bx:bxs-file-json /> JSON</li>
           <li><file-icons:typescript /> Typescript</li>
           <li><cib:vue-js /> Vue</li>
+          <li><cib:wordpress /> Wordpress</li>
         </ul>
       </div>
 
@@ -93,9 +90,13 @@ onBeforeUnmount(() => {
         <h3>{{ t('skills.third') }}</h3>
 
         <ul>
+          <li><ant-design:api-outlined /> API</li>
+          <li><teenyicons:firebase-outline /> Firebase</li>
+          <li><bx:bxl-git /> Git / Github</li>
           <li><cib:netlify /> Netlify</li>
+          <li><ri:npmjs-line /> NPM</li>
           <li><ion:logo-pwa /> PWA</li>
-          <li><cib:wordpress /> Wordpress</li>
+          <li><file-icons:vite /> Vite JS</li>
         </ul>
       </div>
     </div>
@@ -234,6 +235,7 @@ onBeforeUnmount(() => {
       left: 50%;
       transform: translateX(-50%);
 
+      height: calc(100% + 50px);
       width: calc(100% - 20px);
       max-width: 1200px;
 
