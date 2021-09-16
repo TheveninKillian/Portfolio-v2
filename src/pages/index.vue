@@ -58,7 +58,7 @@ onBeforeUnmount(() => {
   </section>
 
   <section class="skills" pos="relative">
-    <div class="skills-container" pos="absolute -top-50px" display="lg:flex">
+    <div class="skills-container" pos="relative -top-50px" display="lg:flex">
       <div>
         <la:tools />
         <h3>{{ t('skills.primary') }}</h3>
@@ -225,17 +225,8 @@ onBeforeUnmount(() => {
   }
 
   .skills{
-    height: calc(878px - 50px);
-
-    @include breakpoint(1024){
-      height: calc(335px - 50px);
-    }
-
     &-container{
-      left: 50%;
-      transform: translateX(-50%);
-
-      height: calc(100% + 50px);
+      margin: auto;
       width: calc(100% - 20px);
       max-width: 1200px;
 
