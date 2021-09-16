@@ -10,7 +10,7 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <section p="lg:b-60px">
+  <section p="b-30px lg:b-60px">
     <h1 class="page-title">
       {{ t('contact.title') }}
     </h1>
