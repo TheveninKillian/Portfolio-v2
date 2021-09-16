@@ -77,10 +77,4 @@ footer{
     text-align: center;
   }
 }
-
-@media all and (min--moz-device-pixel-ratio:0) and (max-width: 768px){
-  footer{
-    margin-top: 60px;
-  }
-}
 </style>
